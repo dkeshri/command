@@ -1,0 +1,20 @@
+// Check for update the system 
+sudo apt update
+
+// Now in acutal update the system application.
+sudo apt upgrade
+
+// we can run both command at same time
+sudo apt update && sudo apt upgrade
+
+// install the application 
+
+sudo apt install <PackageName or PackageNames(space saperated)>
+sudo apt install vlc
+sudo apt install gparted vlc pdfsam-basic
+
+// remove the installed Application 
+sudo apt remove <PackageName>
+or remove everything of that Package use purge
+sudo apt-get --purge remove <PackageName>
+sudo apt-get --purge remove conky conky-all

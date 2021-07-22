@@ -1,0 +1,13 @@
+if you got the error like this 
+
+After recently installing a system update droidcam will no longer open and fails with the message: Device not found (/dev/video[0-9]). Did you install it?
+
+source : https://askubuntu.com/questions/1235389/droidcam-unable-to-find-dev-video0
+
+do the following things
+
+$ sudo apt install v4l2loopback-utils v4l2loopback-dkms cmake nasm yasm pkg-config libgtk2.0-dev
+$ sudo modprobe v4l2loopback
+$ v4l2-ctl --list-devices     # check if you have dummy video devices
+Dummy video device (0x0000) (platform:v4l2loopback-000):
+/dev/video0

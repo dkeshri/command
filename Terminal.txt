@@ -18,3 +18,9 @@ sudo apt remove <PackageName>
 or remove everything of that Package use purge
 sudo apt-get --purge remove <PackageName>
 sudo apt-get --purge remove conky conky-all
+
+
+
+
+// Docker RabbitMQ run command
+sudo docker run -d --hostname my-rabbit --name rabbit -p 15672:15672 -p 5672:5672 rabbitmq:3-management

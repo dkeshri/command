@@ -20,7 +20,7 @@ sudo apt-get --purge remove <PackageName>
 sudo apt-get --purge remove conky conky-all
 
 
-git add this line
+git add this line change added shubham 
 
 
 // Docker RabbitMQ run command

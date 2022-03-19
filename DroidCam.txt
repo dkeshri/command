@@ -13,3 +13,6 @@ cd droidcam && sudo ./install-client
 
 sudo ./install-video
 sudo ./install-sound
+
+
+test this file to do meager in Master branc

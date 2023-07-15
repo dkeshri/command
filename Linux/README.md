@@ -49,3 +49,28 @@ sudo apt-get --purge remove <PackageName>
 ```bash
 sudo apt-get --purge remove conky conky-all
 ```
+
+
+To disable any key of keyboard use below cmd
+
+to find keycode use below cmd and press that key you want to disable
+```bash
+xev
+```
+
+then to disable use keycode to disable that key for Ex my pgDown key is causing problem and keycode is **117**
+
+then use below command any will work
+
+```bash
+xmodmap -e 'keycode 117 = NoSymbol'
+```
+or 
+```bash
+xmodmap -e 'keycode 117 = '
+```
+or
+
+```bash
+xmodmap -e 'keycode 117 = 0x0000'
+```

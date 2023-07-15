@@ -51,7 +51,7 @@ sudo apt-get --purge remove conky conky-all
 ```
 
 
-To disable any key of keyboard use below cmd
+## To disable any key of keyboard use below cmd
 
 to find keycode use below cmd and press that key you want to disable
 ```bash

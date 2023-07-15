@@ -74,3 +74,9 @@ or
 ```bash
 xmodmap -e 'keycode 117 = 0x0000'
 ```
+to check changed is applied or not use below cmd that will show the value associated with key
+
+```bash
+xmodmap -pke
+```
+

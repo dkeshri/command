@@ -58,7 +58,7 @@ to find keycode use below cmd and press that key you want to disable
 xev
 ```
 
-then to disable use keycode to disable that key for Ex my pgDown key is causing problem and keycode is **117**
+then to disable use keycode to disable that key for Ex my pgDown key is causing problem and keycode is `117`
 
 then use below command any will work
 
